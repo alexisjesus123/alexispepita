@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de Viajes</title>
+    <link rel="shortcut icon" href="img/favicon sol.png" type="img/png">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <div class="banner">
+                <img src="img/amanecer.jpg" alt="Banner 1" class="banner-img active">
+                <img src="img/atardecer.jpg" alt="Banner 2" class="banner-img">
+                <img src="img/noche.jpg" alt="Banner 3" class="banner-img">
+            </div>
+        </header>
+
+        <main class="contenido">
+    <h1 class="titulo-animado">Descubre el mundo con nosotros</h1>
+    <section class="texto-columnas">
+        <div class="columna">
+            <h2>Destinos</h2>
+            <p>París, la ciudad del amor, ofrece monumentos icónicos, exquisita gastronomía y un ambiente inolvidable que enamora a cada visitante.</p>
+            <img src="img/frio.avif" alt="Imagen columna 1" class="img-responsiva">
+        </div>
+        <div class="columna">
+            <h2>Experiencias</h2>
+            <p>Las Maldivas son el destino perfecto para quienes buscan playas paradisíacas, aguas cristalinas y una experiencia de relajación total.</p>
+            <img src="img/verde.jpeg" alt="Imagen columna 2" class="img-responsiva">
+        </div>
+        <div class="columna">
+            <h2>Regístrate</h2>
+            <form>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <input type="submit" value="Registrarse">
+            </form>
+        </div>
+    </section>
+</main>
+
+        <footer class="footer">
+            <p>© 2025 ExploraMundo - Agencia de Viajes</p>
+            <p>Dirección: Calle Ficticia 123, Ciudad Ejemplo</p>
+            <div class="redes">
+                <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a> |
+                <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a> |
+                <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
